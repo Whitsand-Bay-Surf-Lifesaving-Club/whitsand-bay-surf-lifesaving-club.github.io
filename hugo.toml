@@ -3,3 +3,10 @@ theme = "universal"
 
 baseURL = "https://Whitsand-Bay-Surf-Lifesaving-Club.github.io"
 publishDir = "docs"
+
+[params]
+    disabled_logo = false
+    logo_text = "Whitsand Bay Surf Lifesaving"
+
+    logo = "img/logo.png"
+    logo_small = "img/logo-small.png"
