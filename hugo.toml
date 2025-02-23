@@ -1,7 +1,5 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = "hugo-fresh"
+theme = "universal"
 
-baseURL = "Whitsand-Bay-Surf-Lifesaving-Club.github.io"
+baseURL = "https://Whitsand-Bay-Surf-Lifesaving-Club.github.io"
 publishDir = "public"
