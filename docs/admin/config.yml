@@ -2,19 +2,29 @@ backend:
   name: github
   repo: Whitsand-Bay-Surf-Lifesaving-Club/www
   branch: main
-  site_domain: https://Whitsand-Bay-Surf-Lifesaving-Club.github.io
+  site_domain: https://whitsand-bay-surf-lifesaving-club.github.io
+  base_url: https://api.netlify.com
+  auth_endpoint: /auth
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
-collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+site_url: https://whitsand-bay-surf-lifesaving-club.github.io/www
 
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "About"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
