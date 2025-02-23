@@ -2,4 +2,4 @@ title = 'My New Hugo Site'
 theme = "universal"
 
 baseURL = "https://Whitsand-Bay-Surf-Lifesaving-Club.github.io"
-publishDir = "public"
+publishDir = "docs"
