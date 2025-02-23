@@ -1,5 +1,5 @@
 title = 'Whitsand Bay Surf Lifesaving Club'
-theme = "universal"
+theme = "ananke"
 
 baseURL = "https://www.whitsandsurf.com"
 publishDir = "docs"
